@@ -1,0 +1,434 @@
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+header {
+    position: relative;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+.shapka {
+    height: 100px;
+    width: 1408px;
+    display: flex;
+    justify-content: space-between;
+}
+.headerMenu {
+    height: 80%;
+    width: 60%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    margin-left: 160px;
+}
+nav {
+    width: 35%;
+    height: 100%;
+}
+.ssilka1 {
+    font-family: 'Open Sans', sans-serif;
+}
+.ssilka2{
+    font-family: 'Open Sans', sans-serif;
+}
+.ssilka3{
+    font-family: 'Open Sans', sans-serif;
+}
+.ssilka4 {
+    font-family: 'Open Sans', sans-serif;
+}
+.ssilka5 {
+    font-family: 'Open Sans', sans-serif;
+}
+.ssilka6 {
+    font-family: 'Open Sans', sans-serif;
+}
+.lang {
+    background-position: center;
+    background-size: center;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 26px;
+}
+.booknow {
+    width: 15%;
+    height: 60%;
+    background-color: #5B6460;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-flow: row;
+    align-items: flex-end;
+    margin-left: 140px;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+.booknow > a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+.logo {
+    width: 6%;
+    height: 75px;
+    margin-left: 80px;
+}
+.logo > img {
+    width: 100%;
+    height: 100%;
+    margin-top: 12px;
+}
+main {
+    width: 100%;
+    height: 100%;
+}
+.mainFon {
+    position: absolute;
+    width: 1408px;
+    height: 700px;
+}
+.mainText {
+    position: absolute;
+    display: flex;
+    flex-flow: column;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    width: 1408px;
+    height: 700px;
+    background-image: url(img/mainbig.png);
+    color:#FFFFFF;
+    
+}
+.glava {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 00;
+    font-size: 70px;
+    line-height: 10px;
+    padding-left: 600px;
+    padding-top: 70px;
+    font-weight: 100;
+}
+.text1 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    padding-left: 960px;
+}
+.text2 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px; 
+    padding-left: 1000px;
+    margin-top: -18px;
+}
+.TheCabins {
+    position: absolute;
+    width: 1409px;
+    height: 1112px;
+    left: -1px;
+    top: 948px;
+} 
+.glava2 {
+    position: absolute;
+    width: 206px;
+    height: 40px;
+    left: 147px;
+    top: 89px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: #5B6460;
+}
+.text3 {
+    position: absolute;
+    width: 465px;
+    height: 244px;
+    left: 147px;
+    top: 179px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color:black;
+}
+.bed {
+    position: absolute;
+    width: 693px;
+    height: 438px;
+    left: 717px;
+    top: 2px;
+}
+.readmore {
+    position: absolute;
+    width: 84px;
+    height: 30px;
+    left: 147px;
+    top: 410px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5B6460;
+}
+.intro {
+    position: absolute;
+    width: 1408px;
+    height: 387px;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1520px;
+}
+.hata {
+    margin-left: 20px;
+}
+.sleep {
+    margin-right: 50px;
+}
+.carta {
+    position: absolute;
+    width: 2116px;
+    height: 650px;
+    top: 2060px;
+}
+.BigText2 {
+    position: absolute;
+    background: #E9ECE0;
+    bottom: 2700px;
+    width: 704px;
+    height: 650px;
+    left: 704px;
+    top: 0px;   
+}
+.glava3 {
+    position: absolute;
+    width: 197px;
+    height: 40px;
+    left: 110px;
+    top: 136px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: #5B6460;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+}
+.text4 {
+    position: absolute;
+    width: 465px;
+    height: 244px;
+    left: 110px;
+    top: 250px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+}
+.readmore2 {
+    position: absolute;
+    width: 77px;
+    height: 30px;
+    left: 110px;
+    top: 500px;
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5B6460; 
+}
+.navigation {
+    height: 650px;
+    width: 704px;
+    background: #3E443E;
+    opacity: 0.4;
+}
+.knopka {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 250px;
+}
+.kithen {
+    position: absolute;
+    width: 1408px;
+    height: 474px;
+    left: 8px;
+    top: 2710px;
+    background: #5B6460;
+}
+.glava4 {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 620px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+.image1 {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 272px;
+}
+.cartinki {
+    position: absolute;
+    left: 8px;
+    top: 0px;
+}
+.image2 {
+    position: relative;
+    z-index: 1;
+    width: 839px;
+    height: 559px;
+    left: 0px;
+    top: 3184px;
+}
+.button2 {
+    position: absolute;
+    width: 156.82px;
+    height: 156.82px;
+    left: 0px;
+    top: 0px;
+}
+.image3 {
+    position: absolute;
+    z-index: 1;
+    width: 704px;
+    height: 559px;
+    left: 704px;
+    top: 3184px;
+}
+footer {
+    position: absolute;
+    width: 1408px;
+    height: 477px;
+    left: 8px;
+    top: 3743px;
+    bottom: 0px;
+    background: #5B6460;
+}
+.h {
+    position: absolute;
+    width: 86.61px;
+    height: 30px;
+    left: 161.04px;
+    top: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.input {
+    position: absolute;
+    height: 30px;
+    left: 161px;
+    top: 170px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    
+}
+.podinputom {
+    position: absolute;
+    width: 420.97px;
+    height: 60px;
+    left: 161.04px;
+    top: 217px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+.niz {
+    position: absolute;
+    width: 146.03px;
+    height: 30px;
+    left: 161.04px;
+    top: 347px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 30px;
+    color: #EFEFEF;
+    opacity: 0.7;
+}
+.ssilka7 {
+    position: absolute;
+    height: 24px;
+    left: 805.58px;
+    top: 103px;
+    font-family: 'DIN', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.ssilka8 {
+    position: absolute;
+    height: 24px;
+    left: 999.95px;
+    top: 103px;
+    font-family: 'DIN', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.ssilka9 {
+    position: absolute;
+    height: 24px;
+    left: 1181.23px;
+    top: 103px;
+    font-family: 'DIN', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.logos {
+    position: absolute;
+    width: 299.11px;
+    height: 50.41px;
+    margin-left: 985.85px;
+    margin-top: 177px;
+}
